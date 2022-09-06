@@ -1,25 +1,39 @@
-generate hyperlinearity scores SP.ipynb = code to generate hyperlinearity scores
+generate_hyperlinearity_scores_cdx.ipynb = code to generate hyperlinearity scores
+predicting_flg_status.ipynb = code to predict filaggrin gene loss-of-function mutation
 
 
-Figure S1. Workflow to quantify palmar hyperlinearity shown for a palmar image.
+Figure S1. Flow diagram of case inclusion, filaggrin gene mutation status, and clinical hyperlinearity ratings.
 
-Figure S2. The highest and lowest hyperlinearity scores for (A) thenar and (B) palmar images. 
-Comparison to original photos (not shown for consent reasons) confirmed the generated scores and processed images were appropriate.
+Figure S2.  We visually confirmed that the palmar hyperlinearity in the original images was consistent with the 
+hyperlinearity captured in the processed images and the generated hyperlinearity scores The 8 highest and lowest scoring 
+images after Sato edge detection are shown for (A) thenar and (B) palmar images. Comparison to original photos (not shown for 
+consent reasons) confirmed the generated scores and processed images were appropriate.
 
-Figure S3. Prevalence of filaggrin gene loss-of-function mutation by decile of hyperlinearity score for thenar and palmar images.
+Figure S3. Swarm plot demonstrating computational hyperlinearity scores by clinical rating. 
+Mean (standard deviation) scores for each clinical group were: 
+- absent 9071 (±2605.9)
+- mild 10 504 (±3527.9),
+- moderate 15 085 (±4383.0)
+- severe 22 723 (±6375.4)
 
-Figure S4. External images, along with their palmar hyperlinearity status described in the original paper, are shown for 
-(A) 3 thenar eminence images, from Lowe et al.1 and 
-(B) 3 palmar images, from Fukuie et al.2 
-(C-D) Generated scores were then mapped onto our distribution (grey lines). 
-This showed that “moderate-severe/apparent” palmar hyperlinearity appropriately scored highly in our distribution, 
-whereas “mild”, “suspected, and “absent” palmar hyperlinearity generated lower scores.
+Figure S4. (A) Swarm plot demonstrating computational hyperlinearity scores by age group, with filaggrin loss-of-function 
+mutations indicated by hue of each case. (B) Swarm plots demonstrating computational hyperlinearity for each filaggrin group 
+presented separately by each age group.
 
-Table S1. Prediction of filaggrin gene loss-of-function mutation (homozygous, compound heterozygous, or heterozygous) 
-for both thenar eminence and palmar images using hyperlinearity scores and age with logistic regression 
-and linear support vector machine classification
+Figure S5. External images, along with their palmar hyperlinearity status described in the original paper, are shown for 
+(A) 3 thenar eminence images, from Lowe et al.2 and 
+(B) 3 palmar images, from Fukuie et al.3 
+(C-D) Generated scores were then mapped onto our distribution (grey lines). This showed that “moderate-severe/apparent” palmar 
+hyperlinearity appropriately scored highly in our distribution, whereas “mild”, “suspected, and “absent” palmar hyperlinearity 
+had lower scores.
 
-Table S2. Prediction of filaggrin gene loss-of-function mutation (homozygous, compound heterozygous, or heterozygous) 
-for both thenar eminence and palmar images with logistic regression and linear support vector machine classification 
-using expanded variable set 
-(hyperlinearity score, age, sex, Eczema Area and Severity Index (EASI), presence of asthma, presence of hayfever, and presence of food allergy)
+Table S1. Baseline characteristics by filaggrin mutation status and thenar hyperlinearity score (computational).
+
+Table S2. Prediction of filaggrin gene loss-of-function mutation (homozygous, compound heterozygous, or heterozygous) for 
+both thenar eminence and palmar images using hyperlinearity scores and age with logistic regression and linear support 
+vector machine classification
+
+Table S3. Prediction of filaggrin gene loss-of-function mutation (homozygous, compound heterozygous, or heterozygous) for 
+both thenar eminence and palmar images with logistic regression and linear support vector machine classification using expanded 
+variable set (hyperlinearity score, age, sex, Eczema Area and Severity Index (EASI), presence of asthma, presence of hayfever, 
+and presence of food allergy)
