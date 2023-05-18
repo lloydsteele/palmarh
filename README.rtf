@@ -1,40 +1,8 @@
-generate_hyperlinearity_scores_cdx.ipynb = code to generate hyperlinearity scores
-predicting_flg_status.ipynb = code to predict filaggrin gene loss-of-function mutation
+# Computational quantification of palmar hyperlinearity and prediction of filaggrin mutation status from palmar images  
 
+This code generates hyperlinearity scores provided images (palms / thenar eminenence).
 
-Table S1, S2, S3 contains:
-    - Table S1. Baseline characteristics by filaggrin mutation status and thenar hyperlinearity score (computational).
-    - Table S2. Prediction of filaggrin gene loss-of-function mutation (homozygous, compound heterozygous, or heterozygous) for 
-both thenar eminence and palmar images using hyperlinearity scores and age with logistic regression and linear support 
-vector machine classification
-    - Table S3. Prediction of filaggrin gene loss-of-function mutation (homozygous, compound heterozygous, or heterozygous) for 
-both thenar eminence and palmar images with logistic regression and linear support vector machine classification using expanded 
-variable set (hyperlinearity score, age, sex, Eczema Area and Severity Index (EASI), presence of asthma, presence of hayfever, 
-and presence of food allergy)
-
-Figure S1. Flow diagram of case inclusion, filaggrin gene mutation status, and clinical hyperlinearity ratings.
-
-Figure S2.  We visually confirmed that the palmar hyperlinearity in the original images was consistent with the 
-hyperlinearity captured in the processed images and the generated hyperlinearity scores The 8 highest and lowest scoring 
-images after Sato edge detection are shown for (A) thenar and (B) palmar images. Comparison to original photos (not shown for 
-consent reasons) confirmed the generated scores and processed images were appropriate.
-
-Figure S3. Swarm plot demonstrating computational hyperlinearity scores by clinical rating. 
-Mean (standard deviation) scores for each clinical group were: 
-- absent 9071 (±2605.9)
-- mild 10 504 (±3527.9),
-- moderate 15 085 (±4383.0)
-- severe 22 723 (±6375.4)
-
-Figure S4. (A) Swarm plot demonstrating computational hyperlinearity scores by age group, with filaggrin loss-of-function 
-mutations indicated by hue of each case. (B) Swarm plots demonstrating computational hyperlinearity for each filaggrin group 
-presented separately by each age group.
-
-Figure S5. External images, along with their palmar hyperlinearity status described in the original paper, are shown for 
-(A) 3 thenar eminence images, from Lowe et al.2 and 
-(B) 3 palmar images, from Fukuie et al.3 
-(C-D) Generated scores were then mapped onto our distribution (grey lines). This showed that “moderate-severe/apparent” palmar 
-hyperlinearity appropriately scored highly in our distribution, whereas “mild”, “suspected, and “absent” palmar hyperlinearity 
-had lower scores.
-
-
+external_hyperlinearity_scores_plus_external_ls.ipynb = code to generate hyperlinearity scores, including for external images
+predict_flg_status_ls.ipynb = code to predict filaggrin gene loss-of-function mutation
+supplementary_data_ls = Supplementary tables and figures
+ 
