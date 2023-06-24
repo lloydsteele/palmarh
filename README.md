@@ -1,6 +1,4 @@
-# SkO ExpiMap
-
-Computational quantification of palmar hyperlinearity and prediction of filaggrin mutation status from palmar images  
+# Computational quantification of palmar hyperlinearity and prediction of filaggrin mutation status from palmar images  
 
 ## About
 
