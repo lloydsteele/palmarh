@@ -9,7 +9,7 @@ Palmar hyperlinearity is associated with the presence of a loss-of-function muta
 
 ## Project Data
 
-### Tower Hamlets Eczema Assessment (THEA)  palmar image dataset (531 images included)
+### 531 individuals with atopic dermatitis (from Tower Hamlets Eczema Assessment (THEA)  palmar image dataset)
 ### 72 non-atopic individuals
 
 
