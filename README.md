@@ -12,9 +12,12 @@ We created a simple tool to quantify palmar hyperlinearity to overcome current i
 
 The code is applied to directories of images, separated by filaggrin mutation status. The paths can be changed to calculate hyperlinearity scores for given images, with results output in a csv file.
 
-### Explanation of files
-hyperlinearity_scores_plus_external_ls.ipynb : part 1 extracts thenar hyperlinearity and palmar hyperlinearity scores for directories of images. For individual images, the section entitled (Fig S5) can be used - change the file names to your file and hyperlinearity scores will be generated. \
+### Main file
+hyperlinearity_scores_plus_external_ls.ipynb : \
+The first part extracts thenar hyperlinearity and palmar hyperlinearity scores for directories of images. \
+The section entitled (Fig S5) shows how to generate hyperlinearity scores for individual images
 
+### Other files
 Supplementary Figures S1-6.docx : supplementary files for research paper \
 Supplementary Tables S1-3.docx : supplementary tables for research paper \
 age_analysis_fig_s4_ls.ipynb : notebook for analysis in research paper looking at differences in hyperlinearity by age group \
